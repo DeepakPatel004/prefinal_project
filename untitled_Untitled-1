@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Code Citations</title>
+  </head>
+  <body>
+    <h1>Code Citations</h1>
+    <h2>License: unknown</h2>
+    <a href="https://github.com/wonderbiz/work_backbone/tree/488108cb03a774bc09525f0ce74d992bd6165890/Dashboard/BackboneApp/dashboard.htm">Dashboard</a>
+    <h2>License: GPL_3_0</h2>
+    <a href="https://github.com/charlielee/boats-animator/tree/4660d3af7251b1fd109ec42f55c32fe5ce74d692/static/index.html">Boats Animator</a>
+    <h2>License: unknown</h2>
+    <a href="https://github.com/lmiller1990/lachlan-miller.me/tree/7dff35fd9b76759d35b815fcde339a826a9858a8/markdown/anatomy-of-a-modern-javascript-toolchain.md">Anatomy of a Modern JavaScript Toolchain</a>
+    <h2>License: MIT</h2>
+    <a href="https://github.com/joaocasarin/casarin.dev/tree/74a8e00c31913b688a0679ef7608d78db5f23fa0/index.html">Casarin.dev</a>
+    <h2>License: unknown</h2>
+    <a href="https://github.com/jtwyoyo/Project/tree/b3244b45bf2c0bf3a6f1665ee71cb1caef47bf55/WebProgramming-Project/MainWebsite-Phase1%2C2/realabout.html">Real About</a>
+  </body>
+</html>

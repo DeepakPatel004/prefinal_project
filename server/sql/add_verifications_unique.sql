@@ -1,0 +1,2 @@
+-- Add unique constraint to prevent duplicate verifications by the same user on the same grievance
+CREATE UNIQUE INDEX IF NOT EXISTS idx_verifications_grievance_user_unique ON verifications(grievance_id, user_id);
