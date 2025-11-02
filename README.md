@@ -8,7 +8,7 @@ PanchayatConnect is a hackathon project designed to solve the critical trust def
 
 ## Live Demo & Presentation
 
-- **Video Demo:** -
+- [**DEMO PHOTOS OF WEBSITE:**](https://drive.google.com/drive/folders/1xOBZDKurnl4rk4ZNwEgJ4ayXxiFANvpo?usp=sharing)
 
 ---
 
