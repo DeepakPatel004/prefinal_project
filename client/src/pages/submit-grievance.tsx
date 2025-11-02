@@ -600,11 +600,11 @@ export default function SubmitGrievance() {
                   name="villageName"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-base">{t('villageNameLabel')} *</FormLabel>
+                      <FormLabel className="text-base">{t('village Name')} *</FormLabel>
                       <FormControl>
                         <Input
                           {...field}
-                          placeholder={t('village Name')}
+                          placeholder={t('Enter your village name')}
                           className="text-base min-h-12"
                           data-testid="input-village-name"
                         />
@@ -619,13 +619,13 @@ export default function SubmitGrievance() {
                   name="fullName"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-base">{t('yourNameLabel')} *</FormLabel>
+                      <FormLabel className="text-base">{t('your Name')} *</FormLabel>
                       <FormControl>
                         <div className="relative">
                           <User className="absolute left-3 top-3.5 h-5 w-5 text-muted-foreground" />
                           <Input
                             {...field}
-                            placeholder={t('fullName as per Aadhaar')}
+                            placeholder={t('Enter your full name as per Aadhaar')}
                             className="text-base min-h-12 pl-10"
                             data-testid="input-full-name"
                           />
@@ -641,7 +641,7 @@ export default function SubmitGrievance() {
                   name="mobileNumber"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-base">{t('enter Your mobile Number')} *</FormLabel>
+                      <FormLabel className="text-base">{t('Mobile Number')} *</FormLabel>
                       <FormControl>
                         <div className="relative">
                           <div className="flex">
@@ -652,7 +652,7 @@ export default function SubmitGrievance() {
                               {...field}
                               type="tel"
                               maxLength={10}
-                              placeholder={t('mobile number')}
+                              placeholder={t('Enter your 10-digit mobile number')}
                               className="text-base min-h-12 rounded-l-none"
                               onChange={(e) => {
                                 const value = e.target.value.replace(/[^0-9]/g, '');
@@ -678,14 +678,14 @@ export default function SubmitGrievance() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-base">{t('emailLabel')} ({t('optional')})</FormLabel>
+                      <FormLabel className="text-base">{t('email')} ({t('optional')})</FormLabel>
                       <FormControl>
                         <div className="relative">
                           <Mail className="absolute left-3 top-3.5 h-5 w-5 text-muted-foreground" />
                           <Input
                             {...field}
                             type="email"
-                            placeholder={t('Enter your email address')}
+                            placeholder={t('Enter your email for updates (optional)')}
                             className="text-base min-h-12 pl-10"
                             data-testid="input-email"
                           />
